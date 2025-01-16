@@ -1,0 +1,148 @@
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8f9fc;
+    padding-top: 20px;
+  }
+
+  .navbar {
+    background-color: #007bff;
+  }
+
+  .navbar a {
+    color: #fff;
+  }
+
+  .navbar a:hover {
+    color: #ffdf00;
+  }
+
+  .hero-section {
+    background:;
+    url('https://via.placeholder.com/1900x700') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+
+}
+
+  .hero-title {
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  .hero-btn {
+    background-color: #ffdf00;
+    color: #007bff;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+
+  .hero-btn:hover {
+    background-color: #e6c200;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+
+  .features-section {
+    padding: 80px 0;
+    animation: slideInUp 2s ease-out;
+  }
+
+  .features-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  .feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .footer {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+  }
+
+  .footer a {
+    color: #ffdf00;
+    text-decoration: none;
+  }
+
+  .footer a:hover {
+    color: #fff;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideInUp {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+  }
+
+  .table-bordered {
+    border: 1px solid #ddd;
+  }
+
+  .scroll-up-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .scroll-up-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .btn {
+    transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
